@@ -1,0 +1,23 @@
+#choose{
+    background-color: #254a99;
+}
+h1{
+    color: #ffffff;
+}
+p{
+    color:#ffffff;
+    font-weight: 200;
+    font-size: 12px;
+}
+.card {
+    background-color: #22458f;
+}
+.card-body{
+    color: #ffffff;
+}
+.card-link{
+    color: #ffffff;
+}
+
+/* animated numbers */
+

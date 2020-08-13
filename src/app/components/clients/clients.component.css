@@ -1,0 +1,15 @@
+#client{
+    background-color: #ecf5ff;
+    height: 500px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #ffffff;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+}

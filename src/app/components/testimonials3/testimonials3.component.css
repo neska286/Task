@@ -1,0 +1,15 @@
+#test2{
+    background-color: #ecf5ff;
+}
+.myimg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.quote {
+    font-style: italic;
+    font-weight: 400;
+
+}
+

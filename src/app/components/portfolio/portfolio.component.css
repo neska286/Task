@@ -1,0 +1,39 @@
+.our-portfolio ul li{
+color:#427bff;
+background-color: #ecf5ff;
+margin-left: 10px;
+padding: 10px 20px;
+margin-bottom: 10px;
+border-radius: 25px;
+-webkit-transition: all 1s ease-in-out ;
+-moz-transition: all 1s ease-in-out ;
+-o-transition: all 1s ease-in-out ;
+transition: all 1s ease-in-out ;
+
+}
+.our-portfolio ul li.active,
+.our-portfolio ul li:hover{
+    background-color: #427bff;
+    color: #ffffff;
+}
+.our-portfolio ul li:hover{
+    cursor: pointer;
+}
+.image-one{
+    margin-top: -150px;
+}
+.image-two{
+    margin-top: -250px;
+}
+.image-three{
+    margin-top: 40px;
+}
+.image-four{
+    margin-top: 40px;
+}
+.image-five{
+    margin-top: -50px;
+}
+.image-six{
+    margin-top: -50px;
+}

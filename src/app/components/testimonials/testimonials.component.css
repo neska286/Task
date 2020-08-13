@@ -1,0 +1,57 @@
+/* start tesrimonials */
+
+.clients-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+}
+
+.myimg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+#clients .carousel-inner {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-height: 250px;
+    background-color: #ecf5ff;
+}
+
+#clients .left-side {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* start  bullets */
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #427bff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}

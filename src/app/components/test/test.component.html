@@ -1,0 +1,144 @@
+
+<!-- Section: Testimonials v.2 -->
+<section class="text-center my-5 mt-5" id="test">
+  <div class="container">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold my-5 text-center mt-5">Testimonials</h2>
+    <!--Carousel Wrapper-->
+    <mdb-carousel [isControls]="false" [animation]="'slide'" class="testimonial-carousel" >
+      <!--First slide-->
+      <mdb-slide *ngFor="let employee of employess">
+        <div class="testimonial row"  >
+          <!--Avatar-->
+    
+       <div class="col-md-6">
+            <img [src]="employee.avatar" class="rounded-circle img-fluid"
+              alt="First sample avatar image">
+            </div>
+     
+          <!--Content-->
+      <div class="col-md-6">
+          <h4 class="font-weight-bold text-left">{{employee.first_name }} {{employee.last_name }}</h4>
+          <h6 class="font-weight-thin my-3 text-left">Founder at ET Company</h6>
+          <p class="text-left">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+            id
+            officiis hic tenetur quae quaerat ad
+          </p>
+        </div>
+      </div>
+    
+      </mdb-slide>
+      <!--/First slide-->
+      <!--Second slide-->
+      <mdb-slide *ngFor="let employee of employess">
+        <div class="testimonial row"  >
+          <!--Avatar-->
+          <div class="col-md-6">
+            <img [src]="employee.avatar"  class="rounded-circle img-fluid"
+              alt="First sample avatar image">
+            </div>
+          <!--Content-->
+          <div class="col-md-6">
+          <h4 class="font-weight-bold">{{employee.first_name }} {{employee.last_name }}</h4>
+          <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+            id
+            officiis hic tenetur quae quaerat ad
+          </p>
+        </div>
+        </div>
+      </mdb-slide>
+  
+      <!--/Second slide-->
+      <!--Third slide-->
+      <mdb-slide *ngFor="let employee of employess">
+        <div class="testimonial row"  >
+          <!--Avatar-->
+          <div class="col-md-6">
+            <img [src]="employee.avatar"  class="rounded-circle img-fluid"
+              alt="First sample avatar image">
+          </div>
+          <!--Content-->
+          <div class="col-md-6">
+          <h4 class="font-weight-bold">{{employee.first_name }} {{employee.last_name }}</h4>
+          <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+            id
+            officiis hic tenetur quae quaerat ad
+          </p>
+        </div>
+        </div>
+      </mdb-slide>
+      <!--/Third slide-->
+            <!--Fourth slide-->
+            <mdb-slide *ngFor="let employee of employess">
+              <div class="testimonial row"  >
+                <!--Avatar-->
+                <div class="col-md-6">
+                  <img [src]="employee.avatar"  class="rounded-circle img-fluid"
+                    alt="First sample avatar image">
+                </div>
+                <!--Content-->
+                <div class="col-md-6">
+                <h4 class="font-weight-bold ">{{employee.first_name }} {{employee.last_name }}</h4>
+                <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                <p class="text-right">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+                  id
+                  officiis hic tenetur quae quaerat ad
+                </p>
+              </div>
+              </div>
+            </mdb-slide>
+            <!--/Fourth slide-->
+                   <!--Fifth slide-->
+                   <mdb-slide *ngFor="let employee of employess">
+                    <div class="testimonial row"  >
+                      <!--Avatar-->
+                      <div class="col-md-6">
+                        <img [src]="employee.avatar"  class="rounded-circle img-fluid"
+                          alt="First sample avatar image">
+                      </div>
+                      <!--Content-->
+                      <div class="col-md-6">
+                      <h4 class="font-weight-bold">{{employee.first_name }} {{employee.last_name }}</h4>
+                      <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+                        id
+                        officiis hic tenetur quae quaerat ad
+                      </p>
+                    </div>
+                    </div>
+                  </mdb-slide>
+                  <!--/Sixth slide-->
+                                <!--Fifth slide-->
+                                <mdb-slide *ngFor="let employee of employess">
+                                  <div class="testimonial row"  >
+                                    <!--Avatar-->
+                                    <div class="col-md-6">
+                                      <img [src]="employee.avatar"  class="rounded-circle img-fluid"
+                                        alt="First sample avatar image">
+                                    </div>
+                                    <!--Content-->
+                                    <div class="col-md-6">
+                                    <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+                                      id
+                                      officiis hic tenetur quae quaerat ad
+                                    </p>
+                                    <h4 class="font-weight-bold text-right">{{employee.first_name }} {{employee.last_name }}</h4>
+                                    <h6 class="font-weight-bold my-3 text-right">Founder at ET Company</h6>
+                                  </div>
+                                </div>
+                                </mdb-slide>
+                                <!--/Sixth slide-->
+    </mdb-carousel>
+    
+    <!--/.Carousel Wrapper-->
+  </div>
+  </section>
+  <!-- Section: Testimonials v.2 -->

@@ -1,0 +1,31 @@
+<div id="test2" class="testimonials3">
+    <div class="container">
+        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" *ngFor="let employee of employess">
+            <mdb-carousel-item >
+              <div class="view w-75">
+                <div class="left-side">
+
+                    <div class="mr-5" style="display: inline-block;">
+                        <img src="../../../assets/images/testimonial-1.jpg"
+                            class="myimg" />
+                    </div>
+
+                    <div  >
+                        <h5>{{employee.first_name }}</h5>
+                        <p>Full Stack developer</p>
+                        <p class="quote">
+                           "Ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                           piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                           Richard
+                           McClintock, a Latin professor"
+                        </p>
+                     
+                    </div>
+                </div>
+                <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+              </div>
+           
+            </mdb-carousel-item>
+          </mdb-carousel>
+    </div>
+</div>

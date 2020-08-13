@@ -1,0 +1,43 @@
+#banner {
+	background-image: url('../../../assets/images/intro-bg.png');
+	height: 700px;
+}
+
+#banner h1 {
+	line-height: 4.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+#banner  span {
+    color: #74b5fc;
+    text-decoration: underline;
+}
+.banner-text {
+	padding-top: 12%;
+}
+
+.bg-image-full {
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.container{
+    margin-top: 100px;
+}
+
+.custom-button {
+       background-color: #427bff;
+        border-radius: 25px;
+        color: white;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+    .custom-button-two{
+        border-color: #ffffff;
+        border-radius: 25px;
+        color: white;
+        font-size: 12px; 
+    }
+   
